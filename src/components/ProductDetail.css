@@ -1,0 +1,73 @@
+.productDetail {
+  display: flex;
+  margin-left: 30px;
+  height: 85vh;
+  margin-right: 70px;
+}
+.productDetail > h1 {
+  flex: 1;
+  font-size: 30px;
+  margin-top: 20px;
+  font-weight: 300;
+}
+.details > h1 {
+  font-size: 30px;
+  margin-top: 20px;
+  font-weight: 300;
+}
+.details > h3 {
+  font-weight: 400;
+  font-size: 15px;
+}
+.details > p {
+  font-size: 14px;
+}
+img {
+  height: 450px;
+  flex: 1;
+  margin-top: 50px;
+}
+.bold {
+  height: 1px;
+  background-color: black;
+}
+
+.details {
+  flex: 1;
+}
+h3 {
+  margin: 10px 0px;
+}
+p {
+  margin: 20px 0px;
+}
+.button {
+  height: 50px;
+  width: 400px;
+  margin: 20px 0px;
+  cursor: pointer;
+  background-color: gray;
+  color: white;
+  transition: all 0.5s ease;
+}
+.button:hover {
+  background-color: black;
+}
+.choice {
+  display: flex;
+}
+span {
+  flex: 1;
+}
+.icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icon > .MuiSvgIcon-root {
+  cursor: pointer;
+}
+.icon > h3 {
+  font-size: 15px;
+  font-weight: 400;
+}

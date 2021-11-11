@@ -1,0 +1,30 @@
+.navbar {
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: #fffef2;
+}
+
+.textLeft > span {
+  margin-right: 30px;
+  font-family: Suisse Medium, sans-serif;
+  cursor: pointer;
+}
+
+.textLeft > span:hover {
+  border-bottom: 1px solid #333;
+}
+
+.textRight > span {
+  margin-left: 10px;
+  font-family: Suisse Medium, sans-serif;
+  cursor: pointer;
+}
+
+.textRight > span:hover {
+  border-bottom: 1px solid #333;
+}
